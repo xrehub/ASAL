@@ -49,7 +49,7 @@ tar -czf "$ARCHIVE_NAME" "${FILES[@]}" || { log "❌ Błąd kompresji"; exit 1; 
 if [[ "$DELETE_ORIGINAL" == "yes" ]]; then
   for f in "${FILES[@]}"; do
     rm -f "$f"
-    log "Usunięto oryginał: $f"
+    log "Removed original: $f"
   done
 fi
 
