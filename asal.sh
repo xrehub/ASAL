@@ -26,7 +26,7 @@ log() {
   echo "[$(timestamp)] $*" | tee -a "$ASAL_LOG"
 }
 
-log "🚀 ASAL startuje..."
+log "🚀 ASAL takes off..."
 
 # Find files older than DAYS_TO_ARCHIVE
 mapfile -t FILES < <(find $LOG_SOURCES -type f -mtime +$DAYS_TO_ARCHIVE 2>/dev/null)
