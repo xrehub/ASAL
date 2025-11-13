@@ -12,15 +12,7 @@ A simple system for automatic system log archiving.
 
 ## Project Structure
 
-asal/
-├─ asal.sh
-├─ asal.conf.example
-├─ tests/
-│ └─ test_setup.sh
-├─ docs/
-│ └─ design.md
-├─ README.md
-└─ LICENSE
+asal/ - asal.sh - asal.conf - tests/ - test_setup.sh - docs - design.md - README.md - LICENSE
 ## Instalation
 
 ```bash
